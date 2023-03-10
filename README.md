@@ -1,4 +1,4 @@
-This is frontend for E-commerce Jewelley Shop using ReactJS.
+#This is frontend for E-commerce Jewelley Shop using ReactJS.
 
 # Getting Started with Create React App
 
