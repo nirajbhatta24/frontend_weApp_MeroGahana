@@ -1,0 +1,67 @@
+.login-container {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/006/639/579/large_2x/defocus-blurred-image-of-gold-jewelry-necklace-ring-chains-for-background-panel-gold-s');
+  background-size: cover;
+  background-position: center;  background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .form-control label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control input {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  button[type="submit"],
+  button[type="button"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 8rem;
+  }
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 1rem;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .login-form {
+      width: 90%;
+    }
+  }
+  

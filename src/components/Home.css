@@ -1,0 +1,88 @@
+.cover-image {
+  width: 100%;
+  height: 400px;
+  background-image: url('https://ngopaldasjewellers.files.wordpress.com/2013/05/facebook-cover-pic.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 2%;
+
+}
+
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+    color: #999;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2rem;
+    justify-content: center;
+    align-content: center;
+  }
+  
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .profile-icon,
+  .cart-icon {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .cart-icon {
+    position: relative;
+  }
+  
+  .cart-icon::after {
+    content: "1"; /* replace with cart item count */
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    height: 16px;
+    width: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .products {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
